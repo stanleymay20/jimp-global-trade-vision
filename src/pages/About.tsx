@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import founderImage from "@/assets/founder-adelaide-asante.jpg";
 
 const values = [
   {
@@ -29,12 +30,12 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2014", event: "Founded Jimp Company Ltd" },
-  { year: "2016", event: "Established China sourcing partnerships" },
-  { year: "2018", event: "Formed strategic alliance with Printex Ltd" },
+  { year: "Early 2000s", event: "Adelaide Asante begins door-to-door fabric retail" },
+  { year: "2005", event: "Overcomes personal tragedy, continues business growth" },
+  { year: "2010s", event: "Established international sourcing partnerships" },
+  { year: "2016", event: "Formed strategic alliance with Printex Ltd" },
   { year: "2020", event: "Expanded institutional supply division" },
-  { year: "2022", event: "Achieved 200+ institutional clients" },
-  { year: "2024", event: "Pioneering sustainable textile solutions" },
+  { year: "2024", event: "Leading Ghana's textile trading industry" },
 ];
 
 export default function About() {
@@ -58,8 +59,58 @@ export default function About() {
         </div>
       </section>
 
-      {/* Company Story */}
+      {/* Founder Story */}
       <section className="py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              About the Founder
+            </h2>
+          </div>
+          
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-xl grid-cols-1 gap-12 lg:max-w-none lg:grid-cols-2 lg:items-center">
+              <div className="order-2 lg:order-1">
+                <h3 className="text-2xl font-bold tracking-tight text-foreground mb-4">
+                  Adelaide Asante – Founder & Managing Director
+                </h3>
+                <div className="space-y-4 text-lg leading-8 text-muted-foreground">
+                  <p>
+                    In the early 2000s, Madam Adelaide Asante began her journey as a small-scale fabric retailer, 
+                    walking from door to door to supply Printex materials and textiles to households across Kumasi. 
+                    With determination and unwavering faith, she grew what began as a one-woman hustle into <strong className="text-foreground">Jimp Company Ltd</strong> — 
+                    now one of Ghana's trusted names in textile trade and institutional supply.
+                  </p>
+                  <p>
+                    After the tragic loss of her husband in 2005, she bore the responsibility of raising seven children 
+                    while navigating the turbulent waters of entrepreneurship. Her path was not without challenges: 
+                    from dishonest employees to overwhelming debts and prolonged stagnation. Yet, it was her resilience, 
+                    integrity, and spiritual strength that laid the foundation for Jimp's growth into a trusted trading partner — 
+                    both locally and internationally.
+                  </p>
+                  <p className="font-semibold text-foreground">
+                    Today, Madam Asante leads with the same passion and purpose that started it all — building bridges 
+                    between Ghanaian institutions and global textile markets.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="order-1 lg:order-2">
+                <div className="relative">
+                  <img 
+                    src={founderImage} 
+                    alt="Adelaide Asante, Founder & Managing Director of Jimp Company Ltd"
+                    className="rounded-2xl shadow-elegant w-full object-cover aspect-square"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Story */}
+      <section className="bg-subtle py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
@@ -68,9 +119,10 @@ export default function About() {
                   Our Story
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                  Jimp Company Ltd was founded with a vision to transform Ghana's textile trading landscape. 
-                  Recognizing the gap between international textile quality and local accessibility, we set out 
-                  to create a bridge that would benefit institutions, schools, and organizations across the country.
+                  Jimp Company Ltd was born out of one woman's determination to serve her community with quality textiles. 
+                  Over two decades, we've evolved from street-level retail to international trade — importing textiles from 
+                  trusted suppliers in Asia and partnering with Ghanaian giants like Printex Ltd to supply suiting fabrics 
+                  for schools and public agencies.
                 </p>
                 <p className="mt-6 text-lg leading-8 text-muted-foreground">
                   Our journey began with a simple commitment: to provide quality textiles at competitive prices 
@@ -103,7 +155,7 @@ export default function About() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="bg-subtle py-24 sm:py-32">
+      <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
             <Card className="shadow-elegant">

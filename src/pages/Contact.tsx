@@ -13,29 +13,29 @@ import Footer from "@/components/layout/Footer";
 const contactInfo = [
   {
     name: "Email",
-    value: "info@jimpcompany.com",
-    href: "mailto:info@jimpcompany.com",
+    value: "jimpcoltd@yahoo.com",
+    href: "mailto:jimpcoltd@yahoo.com",
     icon: Mail,
     description: "General inquiries and support"
   },
   {
     name: "Phone",
-    value: "+233 (0) 24 123 4567",
-    href: "tel:+233241234567",
+    value: "+233 244 402 497",
+    href: "tel:+233244402497",
     icon: Phone,
     description: "Direct line for urgent matters"
   },
   {
     name: "WhatsApp",
-    value: "+233 (0) 24 123 4567",
-    href: "https://wa.me/233241234567",
+    value: "+233 244 402 497",
+    href: "https://wa.me/233244402497",
     icon: MessageSquare,
     description: "Quick messaging and quotes"
   },
   {
     name: "Location",
-    value: "Accra, Ghana",
-    href: "#",
+    value: "P.O. Box SE 858, Suame - Kumasi",
+    href: "https://www.google.com/maps/place/Jimp+Company+Ltd./@6.6949352,-1.6225193,17z",
     icon: MapPin,
     description: "Head office and warehouse"
   }
@@ -317,21 +317,21 @@ export default function Contact() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Button variant="outline" className="w-full justify-start" asChild>
-                    <a href="https://wa.me/233241234567" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/233244402497" target="_blank" rel="noopener noreferrer">
                       <MessageSquare className="mr-2 h-4 w-4" />
                       WhatsApp Chat
                     </a>
                   </Button>
                   
                   <Button variant="outline" className="w-full justify-start" asChild>
-                    <a href="tel:+233241234567">
+                    <a href="tel:+233244402497">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </a>
                   </Button>
                   
                   <Button variant="outline" className="w-full justify-start" asChild>
-                    <a href="mailto:info@jimpcompany.com">
+                    <a href="mailto:jimpcoltd@yahoo.com">
                       <Mail className="mr-2 h-4 w-4" />
                       Send Email
                     </a>
@@ -376,25 +376,43 @@ export default function Contact() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Visit Our Accra Location
+              Visit Our Kumasi Location
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Our head office and main warehouse are strategically located in Accra for easy access 
+              Our head office and main warehouse are strategically located in Suame, Kumasi for easy access 
               and efficient distribution across Ghana.
             </p>
           </div>
           
           <Card className="shadow-elegant overflow-hidden">
-            <div className="h-96 bg-muted flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-16 w-16 text-accent mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-foreground mb-2">Jimp Company Ltd</h3>
-                <p className="text-muted-foreground">Accra, Ghana</p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Interactive map and detailed directions available upon request
-                </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.7021486255889!2d-1.6225193!3d6.6949352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96b60ae7693d%3A0x160eb89cd1d7a1d1!2sJimp%20Company%20Ltd.!5e0!3m2!1sen!2sgh!4v1692200181234!5m2!1sen!2sgh"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Jimp Company Ltd Location Map"
+            />
+            <CardContent className="p-6">
+              <div className="flex items-start gap-4">
+                <MapPin className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">Jimp Company Ltd</h3>
+                  <p className="text-muted-foreground">P.O. Box SE 858, Suame - Kumasi, Ghana</p>
+                  <Button variant="outline" size="sm" className="mt-4" asChild>
+                    <a 
+                      href="https://www.google.com/maps/place/Jimp+Company+Ltd./@6.6949352,-1.6225193,17z" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      Open in Google Maps
+                    </a>
+                  </Button>
+                </div>
               </div>
-            </div>
+            </CardContent>
           </Card>
         </div>
       </section>
