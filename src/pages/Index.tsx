@@ -218,7 +218,7 @@ export default function Index() {
                 <Link to="/contact">Get Started Today</Link>
               </Button>
               <Button variant="outline" size="lg" asChild className="border-white/30 text-white hover:bg-white/10">
-                <Link to="/products">Browse Products</Link>
+                <Link to="/gallery">View Gallery</Link>
               </Button>
             </div>
           </div>
