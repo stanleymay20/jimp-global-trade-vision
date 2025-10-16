@@ -20,7 +20,7 @@ const contactInfo = [
   },
   {
     name: "Phone",
-    value: "+233 244 402 497",
+    value: "+233244402497",
     href: "tel:+233244402497",
     icon: Phone,
     description: "Direct line for urgent matters"
@@ -34,7 +34,7 @@ const contactInfo = [
   },
   {
     name: "Location",
-    value: "P.O. Box SE 858, Suame - Kumasi",
+    value: "Kumasi, Ghana",
     href: "https://www.google.com/maps/place/Jimp+Company+Ltd./@6.6949352,-1.6225193,17z",
     icon: MapPin,
     description: "Head office and warehouse"

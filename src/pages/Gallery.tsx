@@ -26,6 +26,14 @@ const galleryImages = [
   },
   {
     id: 3,
+    src: "/gallery/printex-model-1.jpg",
+    alt: "Model at Printex building with colorful dress",
+    category: "suiting",
+    title: "Printex Fashion Collection",
+    description: "Stunning African print fashion at Printex headquarters"
+  },
+  {
+    id: 4,
     src: "/gallery/fabric-stack-1.jpg",
     alt: "Stack of colorful African print fabrics",
     category: "suiting",
@@ -33,7 +41,7 @@ const galleryImages = [
     description: "Diverse selection of colorful wax print fabrics"
   },
   {
-    id: 4,
+    id: 5,
     src: "/gallery/african-print-fabric-1.jpg",
     alt: "Traditional African wax print pattern",
     category: "suiting",
@@ -41,7 +49,23 @@ const galleryImages = [
     description: "Vibrant multi-colored traditional African fabric patterns"
   },
   {
-    id: 5,
+    id: 6,
+    src: "/gallery/african-print-fabric-2.jpg",
+    alt: "Colorful African wax print fabric",
+    category: "suiting",
+    title: "Rainbow Wax Print",
+    description: "Bold African print with vibrant rainbow-inspired patterns"
+  },
+  {
+    id: 7,
+    src: "/gallery/fashion-african-print-1.jpg",
+    alt: "Fashion model in yellow and purple African print",
+    category: "suiting",
+    title: "African Print Fashion",
+    description: "Contemporary African fashion with traditional wax print designs"
+  },
+  {
+    id: 8,
     src: "/gallery/fabric-pink-1.jpg",
     alt: "Pink patterned fabrics",
     category: "suiting",
@@ -49,7 +73,7 @@ const galleryImages = [
     description: "Soft pink African print materials perfect for various occasions"
   },
   {
-    id: 6,
+    id: 9,
     src: "/gallery/fabric-purple-yellow-1.jpg",
     alt: "Purple and yellow patterned fabrics",
     category: "suiting",
@@ -57,7 +81,7 @@ const galleryImages = [
     description: "Bold purple fabric with distinctive yellow pattern accents"
   },
   {
-    id: 7,
+    id: 10,
     src: "/gallery/fabric-colorful-1.jpg",
     alt: "Red, blue and yellow fabric rolls",
     category: "suiting",
@@ -65,7 +89,31 @@ const galleryImages = [
     description: "Premium quality fabric rolls in vibrant primary colors"
   },
   {
-    id: 8,
+    id: 11,
+    src: "/gallery/colorful-fabric-rolls-1.jpg",
+    alt: "Assorted colorful fabric rolls",
+    category: "suiting",
+    title: "Fabric Roll Assortment",
+    description: "Diverse collection of colorful fabric materials"
+  },
+  {
+    id: 12,
+    src: "/gallery/navy-white-fabric-1.jpg",
+    alt: "Navy blue and white suiting fabrics",
+    category: "suiting",
+    title: "Navy & White Suiting",
+    description: "Professional navy blue and white fabric materials"
+  },
+  {
+    id: 13,
+    src: "/gallery/fabric-shop-interior-1.jpg",
+    alt: "Interior of fabric shop with colorful rolls",
+    category: "suiting",
+    title: "Our Fabric Selection",
+    description: "Wide variety of quality fabrics in our collection"
+  },
+  {
+    id: 14,
     src: "/gallery/fashion-model-pink-1.jpg",
     alt: "Fashion model in pink patterned outfit",
     category: "suiting",
@@ -73,12 +121,44 @@ const galleryImages = [
     description: "Contemporary fashion made from quality African print materials"
   },
   {
-    id: 9,
+    id: 15,
     src: "/gallery/fashion-couple-1.jpg",
     alt: "Couple in elegant black attire",
     category: "suiting",
     title: "Elegant Black Suiting",
     description: "Premium black suiting fabrics for formal occasions"
+  },
+  {
+    id: 16,
+    src: "/gallery/school-uniform-group-1.jpg",
+    alt: "Group of students in blue school uniforms",
+    category: "school",
+    title: "School Uniform Collection",
+    description: "Quality blue patterned school uniform fabrics"
+  },
+  {
+    id: 17,
+    src: "/gallery/school-uniform-student-1.jpg",
+    alt: "Student in navy and white school uniform",
+    category: "school",
+    title: "School Uniform Materials",
+    description: "Durable and comfortable school uniform fabrics"
+  },
+  {
+    id: 18,
+    src: "/gallery/school-uniform-green-1.jpg",
+    alt: "Green patterned school uniform fabric",
+    category: "school",
+    title: "Green School Uniform Fabric",
+    description: "Premium green patterned fabric for educational institutions"
+  },
+  {
+    id: 19,
+    src: "/gallery/school-uniform-blue-1.jpg",
+    alt: "Blue patterned school uniform fabrics",
+    category: "school",
+    title: "Blue School Uniform Materials",
+    description: "High-quality blue uniform fabrics for schools and institutions"
   },
 ];
 
