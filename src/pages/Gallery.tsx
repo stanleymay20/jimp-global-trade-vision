@@ -10,37 +10,76 @@ import Footer from "@/components/layout/Footer";
 const galleryImages = [
   {
     id: 1,
-    src: "/gallery/school-uniform-1.jpg",
-    alt: "School uniform collection",
-    category: "school",
-    title: "School Uniform Collection",
-    description: "Premium suiting fabrics for educational institutions"
+    src: "/gallery/printex-collection-1.jpg",
+    alt: "Printex Maa So Collection - Blue and Orange Dress",
+    category: "suiting",
+    title: "Printex Maa So Collection",
+    description: "Elegant African print dress from our Printex partnership collection"
   },
   {
     id: 2,
-    src: "/gallery/nurse-uniform-1.jpg",
-    alt: "Nurse uniform fabrics",
-    category: "nurse",
-    title: "Healthcare Uniforms",
-    description: "Professional medical wear materials"
+    src: "/gallery/printex-collection-2.jpg",
+    alt: "Printex Ohemaa Collection - Purple Dress",
+    category: "suiting",
+    title: "Printex Ohemaa Collection",
+    description: "Premium African print fabric showcasing vibrant purple patterns"
   },
   {
     id: 3,
-    src: "/gallery/security-uniform-1.jpg",
-    alt: "Security uniform materials",
-    category: "security",
-    title: "Security Uniforms",
-    description: "Durable fabrics for security personnel"
+    src: "/gallery/fabric-stack-1.jpg",
+    alt: "Stack of colorful African print fabrics",
+    category: "suiting",
+    title: "African Print Fabric Collection",
+    description: "Diverse selection of colorful wax print fabrics"
   },
   {
     id: 4,
-    src: "/gallery/suiting-fabric-1.jpg",
-    alt: "Suiting fabrics from Printex",
+    src: "/gallery/african-print-fabric-1.jpg",
+    alt: "Traditional African wax print pattern",
     category: "suiting",
-    title: "Printex Suiting Fabrics",
-    description: "Premium suiting materials in partnership with Printex Ltd"
+    title: "Traditional Wax Print",
+    description: "Vibrant multi-colored traditional African fabric patterns"
   },
-  // Add more images as needed
+  {
+    id: 5,
+    src: "/gallery/fabric-pink-1.jpg",
+    alt: "Pink patterned fabrics",
+    category: "suiting",
+    title: "Pink Print Fabrics",
+    description: "Soft pink African print materials perfect for various occasions"
+  },
+  {
+    id: 6,
+    src: "/gallery/fabric-purple-yellow-1.jpg",
+    alt: "Purple and yellow patterned fabrics",
+    category: "suiting",
+    title: "Purple & Yellow Print Collection",
+    description: "Bold purple fabric with distinctive yellow pattern accents"
+  },
+  {
+    id: 7,
+    src: "/gallery/fabric-colorful-1.jpg",
+    alt: "Red, blue and yellow fabric rolls",
+    category: "suiting",
+    title: "Multi-Color Fabric Rolls",
+    description: "Premium quality fabric rolls in vibrant primary colors"
+  },
+  {
+    id: 8,
+    src: "/gallery/fashion-model-pink-1.jpg",
+    alt: "Fashion model in pink patterned outfit",
+    category: "suiting",
+    title: "Casual Wear Fashion",
+    description: "Contemporary fashion made from quality African print materials"
+  },
+  {
+    id: 9,
+    src: "/gallery/fashion-couple-1.jpg",
+    alt: "Couple in elegant black attire",
+    category: "suiting",
+    title: "Elegant Black Suiting",
+    description: "Premium black suiting fabrics for formal occasions"
+  },
 ];
 
 const categories = [
