@@ -31,15 +31,19 @@ export default function Footer() {
             <div className="space-y-2 text-sm text-primary-foreground/80">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@jimpcompany.com</span>
+                <a href="mailto:jimpcoltd@yahoo.com" className="hover:text-primary-foreground transition-smooth">
+                  jimpcoltd@yahoo.com
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+233 (0) 24 123 4567</span>
+                <a href="tel:+233244402497" className="hover:text-primary-foreground transition-smooth">
+                  +233 244 402 497
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>Accra, Ghana</span>
+                <span>Kumasi, Ghana</span>
               </div>
             </div>
           </div>

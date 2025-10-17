@@ -69,7 +69,7 @@ export default function Index() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button variant="outline" size="lg" asChild className="border-white/30 text-white hover:bg-white/10">
+              <Button size="lg" asChild className="bg-blue-900 hover:bg-blue-800 text-white shadow-lg">
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>

@@ -52,8 +52,7 @@ const inquiryTypes = [
 ];
 
 const businessHours = [
-  { day: "Monday - Friday", hours: "8:00 AM - 6:00 PM" },
-  { day: "Saturday", hours: "9:00 AM - 2:00 PM" },
+  { day: "Monday - Saturday", hours: "8:00 AM - 5:00 PM" },
   { day: "Sunday", hours: "Closed" }
 ];
 
@@ -82,8 +81,8 @@ export default function Contact() {
       return;
     }
 
-    // Simulate form submission
-    toast.success("Your inquiry has been submitted successfully! We'll get back to you within 24 hours.");
+    // Simulate form submission (in production, this would send to jimpcoltd@yahoo.com)
+    toast.success("Thank you for reaching out to Jimp Company Ltd. We'll get back to you shortly.");
     
     // Reset form
     setFormData({
@@ -379,8 +378,8 @@ export default function Contact() {
               Visit Our Kumasi Location
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Our head office and main warehouse are strategically located in Suame, Kumasi for easy access 
-              and efficient distribution across Ghana.
+              Our head office is located opposite SOLID FM, Railways, Central Market, Kumasi. 
+              Visit us for easy access and efficient service across Ghana.
             </p>
           </div>
           

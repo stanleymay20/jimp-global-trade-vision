@@ -42,27 +42,27 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: "/gallery/african-print-fabric-1.jpg",
-    alt: "Traditional African wax print pattern",
-    category: "suiting",
-    title: "Traditional Wax Print",
-    description: "Vibrant multi-colored traditional African fabric patterns"
+    src: "/gallery/school-uniform-kris-1.jpg",
+    alt: "KRIS National School and Dakris International School uniform fabric",
+    category: "school",
+    title: "School Uniform - KRIS & Dakris",
+    description: "Premium school uniform fabrics for KRIS National School and Dakris International"
   },
   {
     id: 6,
-    src: "/gallery/african-print-fabric-2.jpg",
-    alt: "Colorful African wax print fabric",
-    category: "suiting",
-    title: "Rainbow Wax Print",
-    description: "Bold African print with vibrant rainbow-inspired patterns"
+    src: "/gallery/nurse-uniform-1.jpg",
+    alt: "Healthcare professionals in white nurse uniforms",
+    category: "nurse",
+    title: "Healthcare Nurse Uniforms",
+    description: "Professional white nurse uniform materials from University College of Nursing"
   },
   {
     id: 7,
-    src: "/gallery/fashion-african-print-1.jpg",
-    alt: "Fashion model in yellow and purple African print",
-    category: "suiting",
-    title: "African Print Fashion",
-    description: "Contemporary African fashion with traditional wax print designs"
+    src: "/gallery/school-fabric-plaid-1.jpg",
+    alt: "Colorful plaid school uniform fabrics",
+    category: "school",
+    title: "Plaid School Uniform Fabrics",
+    description: "Multi-colored plaid fabrics perfect for school uniforms"
   },
   {
     id: 8,
@@ -159,6 +159,62 @@ const galleryImages = [
     category: "school",
     title: "Blue School Uniform Materials",
     description: "High-quality blue uniform fabrics for schools and institutions"
+  },
+  {
+    id: 20,
+    src: "/gallery/colorful-thread-rolls-1.jpg",
+    alt: "Colorful thread and fabric rolls",
+    category: "suiting",
+    title: "Thread & Fabric Collection",
+    description: "Vibrant collection of threads and fabrics in multiple colors"
+  },
+  {
+    id: 21,
+    src: "/gallery/fabric-rolls-neutral-1.jpg",
+    alt: "Neutral colored fabric rolls",
+    category: "suiting",
+    title: "Neutral Fabric Rolls",
+    description: "Premium neutral-toned fabrics for various applications"
+  },
+  {
+    id: 22,
+    src: "/gallery/suiting-fabric-stack-1.jpg",
+    alt: "Stack of premium suiting fabrics",
+    category: "suiting",
+    title: "Premium Suiting Fabrics",
+    description: "High-quality suiting materials in various patterns and colors"
+  },
+  {
+    id: 23,
+    src: "/gallery/nurse-uniform-white-1.jpg",
+    alt: "Professional nurse in white uniform",
+    category: "nurse",
+    title: "Professional Nurse Uniform",
+    description: "Quality white nurse uniform fabric for healthcare institutions"
+  },
+  {
+    id: 24,
+    src: "/gallery/grey-suiting-fabric-1.jpg",
+    alt: "Grey textured suiting fabric",
+    category: "suiting",
+    title: "Grey Suiting Material",
+    description: "Premium grey textured fabric for professional suiting"
+  },
+  {
+    id: 25,
+    src: "/gallery/plaid-fabric-colorful-1.jpg",
+    alt: "Colorful plaid fabrics in multiple patterns",
+    category: "school",
+    title: "Colorful Plaid Collection",
+    description: "Diverse plaid patterns in vibrant colors for school uniforms"
+  },
+  {
+    id: 26,
+    src: "/gallery/navy-suiting-fabric-1.jpg",
+    alt: "Navy blue suiting fabric texture",
+    category: "suiting",
+    title: "Navy Suiting Fabric",
+    description: "Professional navy blue fabric for formal attire and uniforms"
   },
 ];
 
